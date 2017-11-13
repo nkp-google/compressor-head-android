@@ -1,7 +1,9 @@
-package com.community.jboss.compressorhead;
+package com.community.jboss.compressorhead.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.community.jboss.compressorhead.R;
 
 public class MainActivity extends AppCompatActivity {
 
