@@ -6,6 +6,6 @@ package com.community.jboss.compressorhead.utils;
 
 public class Constants {
 
-    public static final String BASE_URL = "http://compressor-head.appspot.com/image/";
+    public static final String BASE_URL = "compressor-head.appspot.com";
 
 }
