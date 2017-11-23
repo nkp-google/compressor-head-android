@@ -6,13 +6,85 @@
     android:layout_height="match_parent"
     tools:context="com.community.jboss.compressorhead.activities.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/image_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16sp"
+                android:layout_marginRight="16sp"
+                android:hint="ImageURL"
+                android:imeOptions="actionNext"
+                android:inputType="textUri"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/image_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16sp"
+                android:layout_marginRight="16sp"
+                android:hint="Height"
+                android:imeOptions="actionNext"
+                android:inputType="textUri"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/image_width"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16sp"
+                android:layout_marginRight="16sp"
+                android:hint="Width"
+                android:imeOptions="actionNext"
+                android:inputType="textUri"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/new_language"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/formats"
+            android:prompt="@string/Format"
+            android:spinnerMode="dialog" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate URL"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

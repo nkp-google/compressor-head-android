@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CompressorHead</string>
+    <string name="Format">Format</string>
+    <string-array name="formats">
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WebP</item>
+    </string-array>
 </resources>
