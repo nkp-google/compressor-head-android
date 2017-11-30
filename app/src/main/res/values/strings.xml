@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">CompressorHead</string>
     <string name="Format">Format</string>
+    <string name="imageurl">ImageURL</string>
+    <string name="height">Height</string>
+    <string name="width">Width</string>
+    <string name="generate_url">Generate URL</string>
     <string-array name="formats">
         <item>PNG</item>
         <item>JPEG</item>
