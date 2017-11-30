@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">缩小照片</string>
+    <string-array name="formats">
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WebP</item>
+    </string-array>
+    <string name="Format">格式</string>
+    <string name="imageurl">照片URL</string>
+    <string name="width">宽度</string>
+    <string name="generate_url">创造URL</string>
+    <string name="height">长度</string>
+</resources>
