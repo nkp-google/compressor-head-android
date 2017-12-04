@@ -13,6 +13,16 @@ public class CompressorHead {
     public static final String JPEG = "jpeg";
     public static final String WEBP = "webp";
 
+    /**
+     * With the configuration provided,
+     * generates the URL that will return the compressed image.
+     *
+     * @param imageURl the URL of image to be compressed
+     * @param width the desired width of the output image
+     * @param height the desired height of the output image
+     * @param format the desired format of the output image
+     * @return the generated URL
+     */
     public static String getURL(@NonNull String imageURl, int width, int height, String format) {
         Uri.Builder builder = new Uri.Builder();
         builder.scheme("https")
