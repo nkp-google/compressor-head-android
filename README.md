@@ -27,8 +27,9 @@ project.
 You can run the application by two ways:
 
 1. Via your own android smartphone
-     - Enable [USB Debuuging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-		android-4.2/) in your phone.
-     - Click **Run** on the Android Studio tool bar, or **Shift + F10** to run the app.
+
+   - Enable [USB Debuuging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/) in your phone.    
+   - Click **Run** on the Android Studio tool bar, or **Shift + F10** to run the app.
 
 2. By running a virtual device.
 	 - Setup a [Android Virtual Device](https://developer.android.com/studio/run/managing-avds.html) in the IDE. 
