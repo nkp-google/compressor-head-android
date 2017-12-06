@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KompressorKopf</string>
+    <string name="Format">Format</string>
+    <string name="imageurl">Bild URL</string>
+    <string name="height">Höhe</string>
+    <string name="width">Breite</string>
+    <string name="generate_url">URL Generieren</string>
+    <string-array name="formats">
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WebP</item>
+    </string-array>
+</resources>
