@@ -1,6 +1,6 @@
 
 # Compressor Head Android
-[![Build Status](https://travis-ci.org/jboss-outreach/compressor-head-android.svg?branch=addtravis)](https://travis-ci.org/Jboss-Outreach/compressor-head-android)
+[![Build Status](https://travis-ci.org/jboss-outreach/compressor-head-android.svg?branch=master)](https://travis-ci.org/jboss-outreach/compressor-head-android)
 
 ## What is compressor-head-android?
 
