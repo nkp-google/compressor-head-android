@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="formats" translatable="false">
+        <item>@string/format_png</item>
+        <item>@string/format_jpeg</item>
+        <item>@string/format_webp</item>
+    </string-array>
+</resources>

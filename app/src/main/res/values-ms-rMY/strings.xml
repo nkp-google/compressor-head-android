@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="format">Format</string>
+    <string name="imageurl">URL imej</string>
+    <string name="width">Lebar</string>
+    <string name="height">Ketinggian</string>
+</resources>

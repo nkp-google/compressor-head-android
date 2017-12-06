@@ -76,14 +76,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/formats"
-            android:prompt="@string/Format"
+            android:prompt="@string/format"
             android:spinnerMode="dialog" />
 
         <android.support.v7.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/generate_url"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:text="@string/generate_url" />
 
     </LinearLayout>
 
