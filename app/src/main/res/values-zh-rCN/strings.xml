@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">缩小照片</string>
-    <string name="format">格式</string>
-    <string name="imageurl">照片URL</string>
-    <string name="width">宽度</string>
-    <string name="generate_url">创造URL</string>
-    <string name="height">长度</string>
+    <string name="hint_width_px">宽度 (px)</string>
+    <string name="hint_height_px">长度 (px)</string>
 </resources>
