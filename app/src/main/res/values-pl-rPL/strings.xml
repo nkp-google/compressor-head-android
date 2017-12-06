@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kompresor</string>
+    <string name="Format">Format</string>
+    <string name="imageurl">Adres URL obrazka</string>
+    <string name="height">Wysokość</string>
+    <string name="width">Szarokość</string>
+    <string name="generate_url">Generuj Adres URL</string>
+    <string-array name="formats">
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WebP</item>
+    </string-array>
+</resources>
