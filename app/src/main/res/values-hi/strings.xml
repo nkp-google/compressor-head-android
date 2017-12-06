@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">कम्प्रेसर्हेड</string>
+    <string name="Format">स्वरूप</string>
+    <string name="imageurl">इमेज यूआरएल</string>
+    <string name="height">ऊंचाई</string>
+    <string name="width">चौड़ाई</string>
+    <string name="generate_url">यूआरएल उत्पन्न  करें</string>
+    <string-array name="formats">
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WebP</item>
+    </string-array>
+</resources>
