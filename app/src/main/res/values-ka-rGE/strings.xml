@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">კომპრესორის უფროსი</string>
+    <string name="Format">ფორმატი</string>
+    <string name="imageurl">სურათის ლინკი</string>
+    <string name="height">სიგრძე</string>
+    <string name="width">სიგანე</string>
+    <string name="generate_url">დააგენერირე ლინკი</string>
+    <string-array name="formats">
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WebP</item>
+    </string-array>
+</resources>
