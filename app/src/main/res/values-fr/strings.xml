@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CompressorHead</string>
+    <string name="height">Hauteur</string>
+    <string name="width">Largeur</string>
+    <string name="generate_url">Génére URL</string>
+    <string name="imageurl">ImageURL</string>
+    <string name="Format">Format</string>
+</resources>
