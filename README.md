@@ -1,5 +1,6 @@
 
 # Compressor Head Android
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/e904554ecb774f9188d4458c2b277fc5)
 [![Build Status](https://travis-ci.org/jboss-outreach/compressor-head-android.svg?branch=master)](https://travis-ci.org/jboss-outreach/compressor-head-android)
 
 ## What is compressor-head-android?
