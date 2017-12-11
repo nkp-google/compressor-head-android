@@ -10,7 +10,7 @@
     <string name="hint_url_source">Source (URL)</string>
     <string name="hint_height_px">Height (px)</string>
     <string name="hint_width_px">Width (px)</string>
-
+    <string name="text_checkbox">Constrain Proportions</string>
     <string name="title_info">Info</string>
     <string name="description_image_preview">Image preview</string>
     <string name="text_preview_button">Preview</string>
@@ -18,4 +18,7 @@
     <string name="description_info_dialog">Compressor Head allows you to compress an image accessible
         through a remote URL to your desired resolution and image format.</string>
     <string name="button_info_dialog">Got it</string>
+
+    <string name="percent">%1$d%%</string>
+    <string name="hundred_percent">100%</string>
 </resources>

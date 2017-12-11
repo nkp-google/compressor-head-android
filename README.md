@@ -25,7 +25,7 @@ project.
 6. Import the **forked** repository into Android Studio by clicking on files-->Open and navigate to the directory where you forked the repository.
 
 ## Running the Application
-***Via your own android smartphone***
+***Via your own android smartphone.***
 
    - Enable [USB Debugging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/) on your phone.    
    - Click **Run** on the Android Studio tool bar, or **Shift + F10** to run the app.

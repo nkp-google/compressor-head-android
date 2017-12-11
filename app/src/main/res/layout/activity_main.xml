@@ -15,7 +15,7 @@
             android:id="@+id/imagePreview"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
@@ -52,6 +52,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <android.support.design.widget.TextInputEditText
+                        android:id="@+id/imageURL"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_url_source"
@@ -66,12 +67,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
-                    android:layout_marginTop="4dp"
                     app:layout_constraintEnd_toStartOf="@+id/width"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/url">
+                    app:layout_constraintTop_toBottomOf="@+id/percentageGuide">
 
                     <android.support.design.widget.TextInputEditText
+                        android:id="@+id/heightInPx"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_height_px"
@@ -83,14 +84,14 @@
                     android:id="@+id/width"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/height"
-                    app:layout_constraintTop_toBottomOf="@+id/url">
+                    app:layout_constraintTop_toBottomOf="@+id/percentageGuide">
 
                     <android.support.design.widget.TextInputEditText
+                        android:id="@+id/widthInPx"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_width_px"
@@ -109,6 +110,43 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/height" />
+
+                <TextView
+                    android:id="@+id/percent"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:gravity="end"
+                    android:text="@string/hundred_percent"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constrainProps" />
+
+                <CheckBox
+                    android:id="@+id/constrainProps"
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="@string/text_checkbox"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/url" />
+
+                <SeekBar
+                    android:id="@+id/percentageGuide"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toStartOf="@+id/percent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constrainProps" />
 
                 <Button
                     android:id="@+id/preview"
