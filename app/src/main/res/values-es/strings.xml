@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cabeza del compresor</string>
+    <string name="hint_url_source">URL de la imagen</string>
+    <string name="hint_height_px">Altura (px)</string>
+    <string name="hint_width_px">Ancho (px)</string>
+    <string name="title_info">Información</string>
+    <string name="text_preview_button">Vista Previa</string>
+    <string name="description_image_preview">Previsualización de la Imagen</string>
+    <string name="text_download_button">Descargar</string>
+    <string name="description_info_dialog">Cabeza del compresor le permite comprimir una imagen accesible a través de una URL remota a su resolución y formato de imagen deseados</string>
+    <string name="button_info_dialog">Visto bueno</string>
+    <string name="text_checkbox">Restringir las proporciones</string>
+</resources>

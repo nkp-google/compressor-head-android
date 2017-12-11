@@ -19,6 +19,6 @@
         through a remote URL to your desired resolution and image format.</string>
     <string name="button_info_dialog">Got it</string>
 
-    <string name="percent">%1$d%%</string>
-    <string name="hundred_percent">100%</string>
+    <string name="percent" translatable="false">%1$d%%</string>
+    <string name="hundred_percent" translatable="false">100%</string>
 </resources>
