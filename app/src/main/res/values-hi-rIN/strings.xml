@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">कंप्रेसर हेड</string>
+    <string name="description_image_preview">छवि का पूर्वावलोकन करें</string>
+    <string name="hint_url_source">स्रोत यूआरएल दर्ज करें  </string>
+    <string name="text_checkbox">अनुपात को सीमित करें </string>
+    <string name="hint_height_px">ऊंचाई (px)</string>
+    <string name="hint_width_px">चौड़ाई (px)</string>
+    <string name="title_info">जानकारी</string>
+    <string name="text_preview_button">पूर्वावलोकन करें</string>
+    <string name="text_download_button">डाउनलोड</string>
+    <string name="description_info_dialog">कंप्रेसर हेड को एक रिमोट यूआरएल प्रदान करने के बाद आप किसी भी तस्वीर को अपनी मन चाह रिसोल्यूशन के अनुसार उसे कंप्रेस कर सकते है|</string>
+    <string name="button_info_dialog">समझ गए</string>
+
+</resources>
