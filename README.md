@@ -18,7 +18,7 @@ project.
 1. *Fork* the repository by clicking on the Fork icon at the top right corner of this page.
 2. *Clone* the repository on to your local machine by running the following commands on git:
 		
-		git clone git clone https://github.com/[YOUR-USERNAME]/compressor-head-android.git
+		git clone https://github.com/[YOUR-USERNAME]/compressor-head-android.git
 3. If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help on the [chat](https://gitter.im/jboss-outreach/gci).
 4. Download and install [Android Studio](https://developer.android.com/studio/index.html), an IDE for android application development.
 5. You will also need to download the Android SDK from the IDE itself.
@@ -32,7 +32,7 @@ project.
 
 ***By running a virtual device.***
 	 - Setup a [Android Virtual Device](https://developer.android.com/studio/run/managing-avds.html) in the IDE. 
-	 - Then running the application by clicking on **Run** on the Android Studio tool bar, or **Shift + F10** and then choose the 	            newly created virtual device to run the app.
+	 - Then running the application by clicking on **Run** on the Android Studio tool bar, or **Shift + F10** and then choose the newly created virtual device to run the app.
 		
 ## Contributing to the project
 
