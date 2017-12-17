@@ -5,14 +5,14 @@
 
 ## What is compressor-head-android?
 
-*Compressor Head on Android* is an Android clint that generates image URLs  for the [Compressor Head](https://github.com/jboss-outreach/compressor-head) web application.
+*Compressor Head on Android* is an Android client that generates image URLs for the [Compressor Head](https://github.com/jboss-outreach/compressor-head) web application.
 It takes various specifications of an image such as its **URL or source**, **width**, **height**, and **format** (PNG, JPEG or WEBP) as arguments to generate a usable image URL in accordance with the dimensions and format specified.
 
 ## What is Compressor Head?
 
 Compressor Head is a fast web application based on [Python](https://www.python.org/) to resize images.
 For a more detailed explanation, visit the [Compressor Head](https://github.com/jboss-outreach/compressor-head)
-project.
+project. You can use this to compress images for websites which have a maximum capping for uploading an image or use it to scale up the images.
 
 ## Setting up the Project
 1. *Fork* the repository by clicking on the Fork icon at the top right corner of this page.
@@ -24,11 +24,13 @@ project.
 5. You will also need to download the Android SDK from the IDE itself.
 6. Import the **forked** repository into Android Studio by clicking on files-->Open and navigate to the directory where you forked the repository.
 
+* If you want to just download the app without contributing, then skip steps 1 & 2 and just download [.zip](https://github.com/jboss-outreach/compressor-head-android/archive/master.zip) file.
+
 ## Running the Application
 ***Via your own android smartphone.***
 
    - Enable [USB Debugging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/) on your phone.    
-   - Click **Run** on the Android Studio tool bar, or **Shift + F10** to run the app.
+   - Click **Run** on the Android Studio tool bar, or **Shift + F10** to [run the app](https://developer.android.com/studio/run/device.html).
 
 ***By running a virtual device.***
 	 - Setup a [Android Virtual Device](https://developer.android.com/studio/run/managing-avds.html) in the IDE. 
@@ -47,7 +49,11 @@ project.
 
 * [More about Android Studio](https://developer.android.com/studio/intro/index.html)
 * [Buiding your first App](https://developer.android.com/training/basics/firstapp/index.html)
-* [Guide to material design](https://developer.android.com/training/index.html)
+* [Guide to Material design](https://material.io/)
+* [Guide to Virtual Emulators](https://developer.android.com/studio/run/emulator.html)
+* [How to use GitHub](https://guides.github.com/activities/hello-world/)
+* [Git commands handbook](https://git-scm.com/docs)
+* [Chat with us !](https://gitter.im/jboss-outreach)
 
 
 
