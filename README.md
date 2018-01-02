@@ -40,6 +40,7 @@ $ git clone https://github.com/[YOUR-USERNAME]/compressor-head-android.git
 3. If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help on the [chat](https://gitter.im/jboss-outreach/gci).
 
 ### IDE Setup
+#### Windows
 ##### It is recommanded to use Android Studio:
 1. Download and install [Android Studio](https://developer.android.com/studio/index.html).
 2. You will also need to download the Android SDK from the IDE itself.
@@ -49,7 +50,22 @@ $ git clone https://github.com/[YOUR-USERNAME]/compressor-head-android.git
 - The [Elipse IDE](https://eclipse.org/) and its [setup guide](http://www.instructables.com/id/How-To-Setup-Eclipse-for-Android-App-Development/).
 - The [IntelliJ IDEA](https://www.jetbrains.com/idea/) and its [setup guide](https://www.jetbrains.com/help/idea/importing-an-existing-android-project.html).
 
+#### Linux
+##### Setup SDK
+Install the packages required to build the android project
+```
+sudo apt install android-sdk android-sdk-platform-28
+export ANDROID_HOME=/usr/lib/android-sdk
+```
+
+##### Build the App
+Build the app from project
+```
+gradle assembleDebug
+```
+
 ## <a id = "run"> </a> Running the Application
+### Windows
 ***Via your own android smartphone.***
 
 - Enable [USB Debugging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/) on your phone.
@@ -59,6 +75,30 @@ $ git clone https://github.com/[YOUR-USERNAME]/compressor-head-android.git
  - Setup a [Android Virtual Device](https://developer.android.com/studio/run/managing-avds.html) in the IDE.
  - Click **Run** on the Android Studio tool bar, or **Shift + F10** and then choose the newly created virtual device to [run the app](https://developer.android.com/studio/run/device.html).
 
+### Linux
+***Via your own android smartphone.***
+
+ - Enable [USB Debugging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/) on your phone.
+ - Install the app with adb
+ ```
+ adb start-server	# Start the adb server
+ adb devices		# Check your device is available
+ adb install -r app/build/outputs/apk/app-debug.apk
+ ```
+ 
+***By running a virtual device.***
+ - Install Shashlik
+ ```
+ wget http://static.davidedmundson.co.uk/shashlik/shashlik_0.9.3.deb	# Download the deb package
+ sudo dpkg -i shashlik_0.9.3.deb						# Install the package
+ 
+ sudo apt-get install -f && sudo dpkg -i shashlik_0.9.3.deb		# This step is only if you encounter errors in previous step
+ ```
+ - Run the app
+ ```
+ cd app/build/outputs/apk	# Change the directory
+ shashlik-run app-debug.apk compressor-head-android
+ ```
 ## <a id = "contributing"> </a> Contributing to the project
 
 
