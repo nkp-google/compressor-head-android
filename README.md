@@ -51,6 +51,11 @@ $ git clone https://github.com/[YOUR-USERNAME]/compressor-head-android.git
 - The [IntelliJ IDEA](https://www.jetbrains.com/idea/) and its [setup guide](https://www.jetbrains.com/help/idea/importing-an-existing-android-project.html).
 
 #### Linux
+##### It is recommanded to use Android Studio:
+1. Download and install [Android Studio](https://developer.android.com/studio/index.html).
+2. You will also need to download the Android SDK from the IDE itself.
+3. Import the **cloned** repository into Android Studio by clicking on `files --> Open` and navigate to the directory where you forked the repository.
+
 ##### Setup SDK
 Install the packages required to build the android project
 ```
@@ -69,6 +74,9 @@ gradle assembleDebug
 ***Via your own android smartphone.***
 
 - Enable [USB Debugging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/) on your phone.
+
+- Install adb drivers for your smartphone from your manufacturer's website.
+
 - Click **Run** on the Android Studio tool bar, or **Shift + F10** and then choose your phone to [run the app](https://developer.android.com/studio/run/device.html).
 
 ***By running a virtual device.***
@@ -79,7 +87,10 @@ gradle assembleDebug
 ***Via your own android smartphone.***
 
  - Enable [USB Debugging](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/) on your phone.
- - Install the app with adb
+ 
+ - Install drivers for your smartphone from manufacturer's website.
+ 
+ - Install the app with adb (Android Debud Bridge).
  ```
  adb start-server	# Start the adb server
  adb devices		# Check your device is available
@@ -136,6 +147,7 @@ Once you are done coding the changes, commit the files and create a [*PR*](https
 **Step 5: Ensuring code quality**
 
 Once a PR has been created, check if it can be merged without any issues or conflicts. If there are any issues, repeat from **Step 2** and try to resolve them. Wait for a reviewer to cross check your changes, and then merge your changes.
+Also wait for Codacy Reviewer to review the changes made by your commits and in case of any error fix them first.
 
 * Additional Reference regarding clone, fork and editing a repository [**here**](https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository).
 
@@ -144,7 +156,7 @@ Keep Contributing to open source! =)
 ```
 
 ## <a id = "learning"> </a> Additional Learning
-
+* [Refer to Udacity for complete setup of Android application](https://in.udacity.com/course/new-android-fundamentals--ud851)
 * [More about Android Studio](https://developer.android.com/studio/intro/index.html)
 * [Buiding your first App](https://developer.android.com/training/basics/firstapp/index.html)
 * [Guide to Material design](https://material.io/)
