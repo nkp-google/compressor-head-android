@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
         Preview.setOnClickListener((View v) -> {
                 TextInputEditText imageLink = findViewById(R.id.imageURL);
                 ImageView imagePreview = findViewById(R.id.imagePreview);
+                if(imageLink.getText().toString().isEmpty())return;
                 Picasso.with(MainActivity.this).load(imageLink.getText().toString()).into(imagePreview, new Callback() {
                     @Override
                     public void onSuccess() {
