@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">કમ્પ્રેસર હેડ</string>
+
+    <!-- Image compression formats -->
+    <string name="format_png" translatable="false">PNG</string>
+    <string name="format_webp" translatable="false">JPEG</string>
+    <string name="format_jpeg" translatable="false">WEBP</string>
+
+    <!-- Image compression parameters -->
+    <string name="hint_url_source">સ્રોત (URL)</string>
+    <string name="hint_height_px">ઊંચાઇ (px)</string>
+    <string name="hint_width_px">પહોળાઈ (px)</string>
+    <string name="text_checkbox">
+પ્રમાણ ઘટાડવું </string>
+    <string name="title_info">তথ্য</string>
+    <string name="description_image_preview">চিত্র প্রাকদর্শন</string>
+    <string name="text_preview_button">প্রিভিউ</string>
+    <string name="text_download_button">ডাউনলোড</string>
+    <string name="description_info_dialog">
+কম্প্রেসার হেড আপনি অ্যাক্সেসযোগ্য একটি ইমেজ সংকুচিত করতে পারবেন
+        আপনার পছন্দসই রেজল্যুশন এবং ইমেজ বিন্যাসে একটি দূরবর্তী URL এর মাধ্যমে।</string>
+    <string name="button_info_dialog">বুঝেছি</string>
+
+    <string name="percent" translatable="false">%1$d%%</string>
+    <string name="hundred_percent" translatable="false">100%</string>
+</resources>
